@@ -1,0 +1,18 @@
+.toc h1, h2, h3, h4, h5, h6, ol, p, ul { display: block; unicode-bidi: embed }
+.toc li                                { display: list-item }
+.toc h1                                { font-size: 2em; margin: .67em 0 }
+.toc h2                                { font-size: 1.5em; margin: .75em 0 }
+.toc h3                                { font-size: 1.17em; margin: .83em 0 }
+.toc h4, p, ul, ol, dl                 { margin: 1.12em 0 }
+.toc h5                                { font-size: .83em; margin: 1.5em 0 }
+.toc h6                                { font-size: .75em; margin: 1.67em 0 }
+.toc h1, h2, h3, h4, h5, h6, b, strong { font-weight: bolder }
+.toc ol, ul                            { margin-left: 40px }
+.toc ol                                { list-style-type: decimal }
+.toc ol ul, ul ol, ul ul, ol ol        { margin-top: 0; margin-bottom: 0 }
+
+.toc {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+}
